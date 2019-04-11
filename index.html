@@ -14,6 +14,16 @@
     <link rel="stylesheet" type="text/css" href="styles/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="styles/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="styles/app.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138143635-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-138143635-1');
+    </script>
+
 </head>
 
 <body>
@@ -555,26 +565,26 @@
     <script type="text/javascript" src="scripts/app.js"></script>
     <script data-cfasync="false" type="text/javascript" src="scripts/form-submission-handler.js"></script>
     <script type="text/javascript">
-        $(function () {
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                nav: true,
-                navText: ["<i class='ion-ios-arrow-back'></i>", "<i class='ion-ios-arrow-forward'></i>"],
-                margin: 10,
-                responsiveClass: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 1
-                    },
-                    1000: {
-                        items: 1
-                    }
-                }
-            });
-        });
+                        $(function () {
+                            $('.owl-carousel').owlCarousel({
+                                loop: true,
+                                nav: true,
+                                navText: ["<i class='ion-ios-arrow-back'></i>", "<i class='ion-ios-arrow-forward'></i>"],
+                                margin: 10,
+                                responsiveClass: true,
+                                responsive: {
+                                    0: {
+                                        items: 1
+                                    },
+                                    600: {
+                                        items: 1
+                                    },
+                                    1000: {
+                                        items: 1
+                                    }
+                                }
+                            });
+                        });
     </script>
 </body>
 
